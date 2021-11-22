@@ -1,0 +1,26 @@
+{
+  "name": "repushnpm",
+  "version": "1.0.1",
+  "description": "auto push code to npm warehouse",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "mocha",
+    "patch": "repushnpm --patch",
+    "minor": "repushnpm --minor",
+    "major": "repushnpm --major"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "semver": "^5.5.0"
+  },
+  "keywords": [
+    "npm",
+    "push",
+    "release",
+    "semver"
+  ]
+}
